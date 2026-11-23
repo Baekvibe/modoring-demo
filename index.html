@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fafaf9">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="모두링">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="format-detection" content="telephone=no">
+<title>모두링 안부 (시연)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="style.css?v=1795428864">
+</head>
+<body>
+<div id="demo" aria-label="시연 설정">
+  <b>시연</b>
+  <span class="grp" id="d-mode"></span>
+  <button id="d-more" type="button" aria-expanded="false" aria-controls="d-extra">설정 ▾</button>
+  <div id="d-extra" hidden>
+    <span class="grp" id="d-persona"></span>
+    <span class="grp" id="d-loc"></span>
+    <span class="grp" id="d-font"></span>
+    <span class="grp"><button id="d-hc" aria-pressed="false">고대비</button></span>
+  </div>
+</div>
+<header id="top"><div class="in">
+  <div class="srow"><span class="logo" role="img" aria-label="모두링 안부">●</span><form id="search" class="search" role="search"><span aria-hidden="true">🔍</span><input id="q" type="search" placeholder="찾아보기" aria-label="검색" autocomplete="off"></form><div id="top-r"></div></div>
+</div></header>
+<main id="app"></main>
+<div id="foot"><div class="in">
+  <nav id="tabs" aria-label="메뉴"></nav>
+</div></div>
+<div id="overlay" hidden role="dialog" aria-modal="true"></div>
+<script src="icons.js?v=1795428864"></script>
+<script src="logic.js?v=1795428864"></script>
+<script src="app.js?v=1795428864"></script>
+</body>
+</html>

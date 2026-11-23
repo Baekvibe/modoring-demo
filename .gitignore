@@ -1,0 +1,6 @@
+# 개인 사진·캡처, 에디터/노트북 임시 파일은 올리지 않는다
+KakaoTalk_*.jpg
+*.png
+.ipynb_checkpoints/
+.DS_Store
+node_modules/
